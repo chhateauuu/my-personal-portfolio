@@ -51,7 +51,7 @@ export const Introduction = () => {
         <span className="icons">
             <ExitToAppIcon />
         </span>
-        "Funny guy"(unless my friends have been lying to me){" "}
+        "Funny Guy"(unless my friends have been lying to me){" "}
     </h4>
     <h4>
         Feel free to reach out and connect with me. I'd love to learn about you and your culture.
