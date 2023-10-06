@@ -39,19 +39,19 @@ export const Introduction = () => {
         <span className="icons">
             <ExitToAppIcon />
         </span>
-        Gymrat{" "}
+        Gym Rat{" "}
     </h4>
     <h4 className="different">
         <span className="icons">
             <ExitToAppIcon />
         </span>
-        HomeChef{" "}
+        Home Chef{" "}
     </h4>
     <h4 className="different">
         <span className="icons">
             <ExitToAppIcon />
         </span>
-        Funny guy(unless my friends have been lying to me){" "}
+        "Funny guy"(unless my friends have been lying to me){" "}
     </h4>
     <h4>
         Feel free to reach out and connect with me. I'd love to learn about you and your culture.
