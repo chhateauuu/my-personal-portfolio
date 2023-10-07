@@ -1,7 +1,7 @@
 .about {
   flex-direction: column;
   margin-top: 10em;
-  height: 100vh;
+
 }
 .about__name {
   color: var(--clr-primary);
