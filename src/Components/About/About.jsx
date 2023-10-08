@@ -76,9 +76,7 @@ export const About = () => {
       </div>
       <Introduction />
       <Timeline />
-      <section id="#skills">
-        <Techstacks />
-      </section>
+      
     </>
   );
 };
