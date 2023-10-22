@@ -32,7 +32,7 @@ export const Introduction = () => {
         <span className="different">Aarya(AAR-YEAH)</span>, and I am a student at{" "}
         <span className="different">DePauw University, Indiana</span>. Born and raised in{" "}
         <span className="different">Kathmandu, Nepal</span>, I am currently pursuing a {" "}
-        <span className="different">Computer Science major and Maths minor</span> with a strong drive in bridging coding and numbers for community development.
+        <span className="different">Computer Science major with Data Science and Maths minors</span> with a strong drive in bridging coding and numbers for community development.
     </h4>
     <h4>My Non-tech attributes   :</h4>
     <h4 className="different">
