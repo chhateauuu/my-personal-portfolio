@@ -34,6 +34,44 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"Aug 2021 - Dec 2021"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Development Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              <a href= "https://www.linkedin.com/company/1system/" target="_blank">
+              <span className="different">
+              1 System</span> </a>| Remote/Austin, TX
+            </h4>
+            <p data-aos="fade-right">
+            Enhanced user experience and functionality using React and Java for the company website and app. Served as a dynamic brand ambassador, working on effectively networking and securing new clients
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             date={"Aug 2023 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -184,45 +222,7 @@ export const Timeline = () => {
             Utilized Timeline JS, ArcGIS StoryMaps, and Big Tree for projects, gaining hands-on experience in Data Visualization, VR Technology, and Graphic Design. Explored new technologies, completed 10+ projects with them, and showcased on a <a href="https://sites.google.com/depauw.edu/aarya/home" target="_blank"><span className="different">website</span></a> I designed as a repository for all projects and software explored during the program.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Aug 2021 - Dec 2021"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Game Design Intern
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              <a href= "https://www.linkedin.com/company/chimpvine/" target="_blank">
-              <span className="different">
-              ChimpVine</span> </a>| Remote
-            </h4>
-            <p data-aos="fade-right">
-              
-                  Explored gaming's potential to enhance teaching, researching games and UI creative ideas. As a part of the game, UI design, and testing team at a New York-based startup aimed at reaching Nepalese children from Pre-K to grade 5, designed, tested 20+ games, and contributed to UI design and wireframes for the company website.
-            </p>
-          </VerticalTimelineElement>
+          
        
         </VerticalTimeline>
       </div>
