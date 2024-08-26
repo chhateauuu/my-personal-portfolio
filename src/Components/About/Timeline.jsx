@@ -102,7 +102,7 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
               <a href= "https://www.depauw.edu/it/itap/" target="_blank">
-              <span className="different">DePauw University</span> </a>| Indiana
+              <span className="different">DePauw Tenzer Technology Center</span> </a>| Indiana
               
             </h4>
             <p data-aos="fade-right">
@@ -176,7 +176,7 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
              <a href="https://sites.google.com/depauw.edu/tenzercenter/facilities" target="_blank">
-             <span className="different">Tenzer Technology Center</span></a> | Indiana
+             <span className="different">DePauw Tenzer Technology Center</span></a> | Indiana
               
             </h4>
             <p data-aos="fade-right">
