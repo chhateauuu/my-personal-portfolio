@@ -33,6 +33,158 @@ export const Timeline = () => {
             My <span className="different">Experience</span>
           </h2>
           <VerticalTimeline lineColor={linecolor}>
+            {/* New Timeline Elements at the Top */}
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date={"Aug 2024 - Present"}
+              contentStyle={{
+                boxShadow: `var(--shadow)`,
+                border: "3px solid var(--clr-primary)",
+                backgroundColor: `var(--clr-bg)`,
+                textAlign: "center",
+                color: `var(--clr-fg-alt)`,
+              }}
+              contentArrowStyle={{
+                borderRight: "16px solid var(--clr-primary)",
+              }}
+              iconStyle={{
+                border: ` 3px solid var(--clr-primary)`,
+                backgroundColor: `var(--clr-bg)`,
+                color: `var(--clr-primary)`,
+              }}
+              icon={<WorkIcon />}
+            >
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                iOS Developer
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              >
+                <a
+                  href="https://www.depauw.edu/academics/departments-programs/psychology/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="different">
+                    DePauw Neuroscience Department
+                  </span>
+                </a>{" "}
+                | Greencastle, IN
+              </h4>
+              <p data-aos="fade-right">
+                Partnered with the neuroscience dept. to develop an iOS app,
+                improving cognitive skills for 2,200+ Alzheimer's patients.
+                Integrated interactive games and a library of 170+ trivia
+                questions to boost cognitive stimulation. Created an LLM that
+                dynamically generates trivia questions based on user
+                preferences, enhancing engagement.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date={"Jul 2024 - Aug 2024"}
+              contentStyle={{
+                boxShadow: `var(--shadow)`,
+                border: "3px solid var(--clr-primary)",
+                backgroundColor: `var(--clr-bg)`,
+                textAlign: "center",
+                color: `var(--clr-fg-alt)`,
+              }}
+              contentArrowStyle={{
+                borderRight: "16px solid var(--clr-primary)",
+              }}
+              iconStyle={{
+                border: ` 3px solid var(--clr-primary)`,
+                backgroundColor: `var(--clr-bg)`,
+                color: `var(--clr-primary)`,
+              }}
+              icon={<WorkIcon />}
+            >
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                Full-Stack Software Development Intern
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              >
+                <a
+                  href="https://bnutty.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="different">BNutty, LLC</span>
+                </a>{" "}
+                | Valparaiso, IN
+              </h4>
+              <p data-aos="fade-right">
+                Automated 15 quality and quantity check forms in a React-based
+                web app, streamlining production room processes. Reduced the
+                turnaround time from submission to supervisor review from over
+                24 hours to just 30 minutes. Built a Django backend to manage
+                and compile forms into PDFs, improving efficiency and
+                documentation.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date={"May 2024 - Jul 2024"}
+              contentStyle={{
+                boxShadow: `var(--shadow)`,
+                border: "3px solid var(--clr-primary)",
+                backgroundColor: `var(--clr-bg)`,
+                textAlign: "center",
+                color: `var(--clr-fg-alt)`,
+              }}
+              contentArrowStyle={{
+                borderRight: "16px solid var(--clr-primary)",
+              }}
+              iconStyle={{
+                border: ` 3px solid var(--clr-primary)`,
+                backgroundColor: `var(--clr-bg)`,
+                color: `var(--clr-primary)`,
+              }}
+              icon={<WorkIcon />}
+            >
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                AI/ML Intern
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              >
+                <a
+                  href="https://bnutty.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="different">BNutty, LLC</span>
+                </a>{" "}
+                | Valparaiso, IN
+              </h4>
+              <p data-aos="fade-right">
+                Automated jar counting on a production line using Machine Vision
+                and OpenCV on a Raspberry Pi 4. Enhanced counting accuracy and
+                reduced waste in jar production by 18%, optimizing overall
+                efficiency. Streamlined data flow to a Django backend hosted on
+                AWS, displaying real-time counts on a React-based website.
+              </p>
+            </VerticalTimelineElement>
+
+            {/* Existing Timeline Elements Below */}
+
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date={"Jan 2024 - Jul 2024"}
@@ -277,156 +429,6 @@ export const Timeline = () => {
                 </a>{" "}
                 I designed as a repository for all projects and software
                 explored during the program.
-              </p>
-            </VerticalTimelineElement>
-
-            {/* New Timeline Elements */}
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date={"Aug 2024 - Present"}
-              contentStyle={{
-                boxShadow: `var(--shadow)`,
-                border: "3px solid var(--clr-primary)",
-                backgroundColor: `var(--clr-bg)`,
-                textAlign: "center",
-                color: `var(--clr-fg-alt)`,
-              }}
-              contentArrowStyle={{
-                borderRight: "16px solid var(--clr-primary)",
-              }}
-              iconStyle={{
-                border: ` 3px solid var(--clr-primary)`,
-                backgroundColor: `var(--clr-bg)`,
-                color: `var(--clr-primary)`,
-              }}
-              icon={<WorkIcon />}
-            >
-              <h3
-                className="vertical-timeline-element-title"
-                data-aos="fade-right"
-              >
-                iOS Developer
-              </h3>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                data-aos="fade-right"
-              >
-                <a
-                  href="https://www.depauw.edu/academics/departments-programs/psychology/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="different">
-                    DePauw Neuroscience Department
-                  </span>
-                </a>{" "}
-                | Greencastle, IN
-              </h4>
-              <p data-aos="fade-right">
-                Partnered with the neuroscience dept. to develop an iOS app,
-                improving cognitive skills for 2,200+ Alzheimer's patients.
-                Integrated interactive games and a library of 170+ trivia
-                questions to boost cognitive stimulation. Created an LLM that
-                dynamically generates trivia questions based on user
-                preferences, enhancing engagement.
-              </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date={"Jul 2024 - Aug 2024"}
-              contentStyle={{
-                boxShadow: `var(--shadow)`,
-                border: "3px solid var(--clr-primary)",
-                backgroundColor: `var(--clr-bg)`,
-                textAlign: "center",
-                color: `var(--clr-fg-alt)`,
-              }}
-              contentArrowStyle={{
-                borderRight: "16px solid var(--clr-primary)",
-              }}
-              iconStyle={{
-                border: ` 3px solid var(--clr-primary)`,
-                backgroundColor: `var(--clr-bg)`,
-                color: `var(--clr-primary)`,
-              }}
-              icon={<WorkIcon />}
-            >
-              <h3
-                className="vertical-timeline-element-title"
-                data-aos="fade-right"
-              >
-                Full-Stack Software Development Intern
-              </h3>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                data-aos="fade-right"
-              >
-                <a
-                  href="https://bnutty.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="different">BNutty, LLC</span>
-                </a>{" "}
-                | Valparaiso, IN
-              </h4>
-              <p data-aos="fade-right">
-                Automated 15 quality and quantity check forms in a React-based
-                web app, streamlining production room processes. Reduced the
-                turnaround time from submission to supervisor review from over
-                24 hours to just 30 minutes. Built a Django backend to manage
-                and compile forms into PDFs, improving efficiency and
-                documentation.
-              </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date={"May 2024 - Jul 2024"}
-              contentStyle={{
-                boxShadow: `var(--shadow)`,
-                border: "3px solid var(--clr-primary)",
-                backgroundColor: `var(--clr-bg)`,
-                textAlign: "center",
-                color: `var(--clr-fg-alt)`,
-              }}
-              contentArrowStyle={{
-                borderRight: "16px solid var(--clr-primary)",
-              }}
-              iconStyle={{
-                border: ` 3px solid var(--clr-primary)`,
-                backgroundColor: `var(--clr-bg)`,
-                color: `var(--clr-primary)`,
-              }}
-              icon={<WorkIcon />}
-            >
-              <h3
-                className="vertical-timeline-element-title"
-                data-aos="fade-right"
-              >
-                AI/ML Intern
-              </h3>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                data-aos="fade-right"
-              >
-                <a
-                  href="https://bnutty.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="different">BNutty, LLC</span>
-                </a>{" "}
-                | Valparaiso, IN
-              </h4>
-              <p data-aos="fade-right">
-                Automated jar counting on a production line using Machine Vision
-                and OpenCV on a Raspberry Pi 4. Enhanced counting accuracy and
-                reduced waste in jar production by 18%, optimizing overall
-                efficiency. Streamlined data flow to a Django backend hosted on
-                AWS, displaying real-time counts on a React-based website.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
