@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+import { FaReact, FaHardHat, FaPython } from "react-icons/fa";
 import {
   SiBlockchaindotcom,
   SiHtml5,
@@ -18,6 +18,7 @@ import {
   SiJava,
   SiReact,
   SiCss3,
+  SiTensorflow,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -27,6 +28,7 @@ import atmPic from "../../assets/atmpagepic.png";
 import wPic from "../../assets/weatherw.png";
 import spendSavvy from "../../assets/spendsavvy.png";
 import bmicalc from "../../assets/BMI-calculator.png";
+import objectDetect from "../../assets/object_detection.png"
 
 
 
@@ -43,8 +45,43 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
+                    src={objectDetect}
+                    alt="Object Detection Image"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Detect AI</h2>
+                <p>
+                Trained a TensorFlow model on Google Colab and converted it to TensorFlow Lite for deployment. Crafted a Python script with OpenCV and NumPy to run the model on a Raspberry Pi 4 for real-time object detection
+                </p>
+                <div>
+                  
+                  <FaPython />
+                  <SiTensorflow />
+                </div>
+                <div>
+                  
+                  <a
+                    href="https://github.com/chhateauuu/DetectAI-Real-Time-Object-Recognition"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
                     src={sortingPic}
-                    alt="Rockstar Games"
+                    alt=""
                   />
                 </div>
               </div>
