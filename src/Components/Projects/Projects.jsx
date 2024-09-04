@@ -80,6 +80,40 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
+                    src={atmPic}
+                    alt="Sk-Weather-App"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Aarya's ATM</h2>
+                <p>
+                Developed an ATM Simulator using Java, offering features such as real-time cash deposits, withdrawals, and instant account balance updates. Utilized MySQL for robust backend data management and harnessed Maven for streamlined project builds and efficient dependency handling.
+                </p>
+                <div>
+                  <SiJava />
+                  <SiMysql />
+                </div>
+                <div>
+                 
+                  <a
+                    href="https://github.com/chhateauuu/ATM-Simulator"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
                     src={sortingPic}
                     alt=""
                   />
@@ -118,40 +152,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src={atmPic}
-                    alt="Sk-Weather-App"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Aarya's ATM</h2>
-                <p>
-                Developed an ATM Simulator using Java, offering features such as real-time cash deposits, withdrawals, and instant account balance updates. Utilized MySQL for robust backend data management and harnessed Maven for streamlined project builds and efficient dependency handling.
-                </p>
-                <div>
-                  <SiJava />
-                  <SiMysql />
-                </div>
-                <div>
-                 
-                  <a
-                    href="https://github.com/chhateauuu/ATM-Simulator"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
