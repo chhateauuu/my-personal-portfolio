@@ -59,7 +59,7 @@ export const Timeline = () => {
                 className="vertical-timeline-element-title"
                 data-aos="fade-right"
               >
-                iOS Developer
+                App Developer
               </h3>
               <h4
                 className="vertical-timeline-element-subtitle"
@@ -77,18 +77,14 @@ export const Timeline = () => {
                 | Greencastle, IN
               </h4>
               <p data-aos="fade-right">
-                Partnered with the neuroscience dept. to develop an iOS app,
-                improving cognitive skills for 2,200+ Alzheimer's patients.
-                Integrated interactive games and a library of 170+ trivia
-                questions to boost cognitive stimulation. Created an LLM that
-                dynamically generates trivia questions based on user
-                preferences, enhancing engagement.
+                Partnered with the neuroscience department to develop an iOS and Android-friendly application using React Native. Integrated interactive games with a vast library of questions to boost cognitive stimulation for 2200+ Alzheimer’s patients. Crafted an LLM that dynamically generates 170+ trivia questions based on user preferences using relevant News APIs.
+
               </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date={"Jul 2024 - Aug 2024"}
+              date={"Jul 2024 - Sep 2024"}
               contentStyle={{
                 boxShadow: `var(--shadow)`,
                 border: "3px solid var(--clr-primary)",
@@ -126,12 +122,8 @@ export const Timeline = () => {
                 | Valparaiso, IN
               </h4>
               <p data-aos="fade-right">
-                Automated 15 quality and quantity check forms in a React-based
-                web app, streamlining production room processes. Reduced the
-                turnaround time from submission to supervisor review from over
-                24 hours to just 30 minutes. Built a Django backend to manage
-                and compile forms into PDFs, improving efficiency and
-                documentation.
+                Automated 14 quality and quantity check forms in a React-based web app for reducing data entry errors and paper stacks. Reduced the turnaround time from submission of the forms to supervisor review from over 24 hours to just 30 minutes. Built a Django backend to manage and compile forms into PDFs, improving efficiency and documentation.
+
               </p>
             </VerticalTimelineElement>
 
@@ -175,11 +167,7 @@ export const Timeline = () => {
                 | Valparaiso, IN
               </h4>
               <p data-aos="fade-right">
-                Automated jar counting on a production line using Machine Vision
-                and OpenCV on a Raspberry Pi 4. Enhanced counting accuracy and
-                reduced waste in jar production by 18%, optimizing overall
-                efficiency. Streamlined data flow to a Django backend hosted on
-                AWS, displaying real-time counts on a React-based website.
+                Utilized Machine Vision and OpenCV for counting jars passing through a production line with over 98% accuracy. Enhanced counting accuracy and reduced waste in jar production by 18%, optimizing overall proficiency. Presented real-time counts of 150000+ jars based on the day on a React web app via a Django backend hosted on AWS.
               </p>
             </VerticalTimelineElement>
 
@@ -225,10 +213,7 @@ export const Timeline = () => {
                 | Remote/Austin, TX
               </h4>
               <p data-aos="fade-right">
-                Enhanced user experience and functionality using React and Java
-                for the company website and app. Served as a dynamic brand
-                ambassador, working on effectively networking and securing new
-                clients.
+                Improved user engagement by 16%  across the company’s website and application through Three JS and Python. Led full-stack development to optimize the backend performance while simultaneously cutting page load times. Secured an acquisition of 12 clients as the Indiana brand ambassador through strategic networking efforts.
               </p>
             </VerticalTimelineElement>
 
@@ -271,11 +256,7 @@ export const Timeline = () => {
                 | Indiana
               </h4>
               <p data-aos="fade-right">
-                Led the creation of web apps for DePauw University's touchscreen
-                kiosks using JavaScript, CSS, React, and Python. Introduced
-                DePauw-themed games on the library's platform, enhancing
-                university culture with tech, boosting student engagement by
-                25%, and enriching the collegiate experience.
+                Developed 3 web applications games for the Library’s touchscreen kiosk, increasing user engagement by 19%. Increased repeated interactions through scoreboards and real-time analytics with React Hooks and Django. Boosted efficiency by 40% by automating data collection and leaderboard updates through optimized backend operations.
               </p>
             </VerticalTimelineElement>
 
@@ -318,7 +299,7 @@ export const Timeline = () => {
                 | Indiana
               </h4>
               <p data-aos="fade-right">
-                Initiated tech support sessions at Putnam County Public Library,
+                Initiated tech support sessions for 16+ local residents at Putnam County Public Library,
                 aiding in software inquiries and promoting digital literacy.
                 Provided web development guidance to local entrepreneurs,
                 assisting with tech issues from Photoshop editing to creating
