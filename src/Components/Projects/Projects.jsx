@@ -119,7 +119,7 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>Detect AI</h2>
+                <h2>DiceMaster</h2>
                 <p>
 Built an iOS app using Swift and UIKit, creating smooth transitions and optimizing logic for seamless interactions. Reduced UI load time by 32% compared to standard image handling methods, enhancing overall responsiveness                </p>
                 <div>
