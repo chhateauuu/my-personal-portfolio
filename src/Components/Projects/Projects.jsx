@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat, FaPython } from "react-icons/fa";
+import { FaReact, FaHardHat, FaPython, FaSwift } from "react-icons/fa";
 import {
   SiBlockchaindotcom,
   SiHtml5,
@@ -29,7 +29,7 @@ import wPic from "../../assets/weatherw.png";
 import spendSavvy from "../../assets/spendsavvy.png";
 import bmicalc from "../../assets/BMI-calculator.png";
 import objectDetect from "../../assets/object_detection.png"
-
+import dice from "../../assets/dice.png"
 
 
 
@@ -42,6 +42,7 @@ export const Projects = () => {
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
+            
               <div className="project_videocontainer">
                 <div>
                   <img
@@ -53,7 +54,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Detect AI</h2>
                 <p>
-                Trained a TensorFlow model on Google Colab and converted it to TensorFlow Lite for deployment. Crafted a Python script with OpenCV and NumPy to run the model on a Raspberry Pi 4 for real-time object detection
+                Trained a TensorFlow model on Google Colab, reducing model size by 2x to deploy by converting it to TFLite. Crafted a Python Script using OpenCV and NumPy to achieve real-time object detection, processing 30 FPS.
                 </p>
                 <div>
                   
@@ -88,7 +89,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Aarya's ATM</h2>
                 <p>
-                Developed an ATM Simulator using Java, offering features such as real-time cash deposits, withdrawals, and instant account balance updates. Utilized MySQL for robust backend data management and harnessed Maven for streamlined project builds and efficient dependency handling.
+                Created an ATM Simulator in Java using JFrame and Maven, handling up to 55 transactions running parallelly. Integrated MySQL with Java Database Connectivity, improving data management efficiency and privacy.
                 </p>
                 <div>
                   <SiJava />
@@ -98,6 +99,37 @@ export const Projects = () => {
                  
                   <a
                     href="https://github.com/chhateauuu/ATM-Simulator"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={dice}
+                    alt="DiceMaster"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Detect AI</h2>
+                <p>
+Built an iOS app using Swift and UIKit, creating smooth transitions and optimizing logic for seamless interactions. Reduced UI load time by 31% compared to standard image handling methods, enhancing overall responsiveness                </p>
+                <div>
+                  
+                  <FaSwift />
+                </div>
+                <div>
+                  
+                  <a
+                    href="https://github.com/chhateauuu/DiceMaster"
                     target="_blank"
                     rel="noreferrer"
                   >
