@@ -77,7 +77,7 @@ export const Timeline = () => {
                 | Greencastle, IN
               </h4>
               <p data-aos="fade-right">
-                Partnered with the neuroscience department to develop an iOS and Android-friendly application using React Native. Integrated interactive games with a vast library of questions to boost cognitive stimulation for 2200+ Alzheimer’s patients. Crafted an LLM that dynamically generates 170+ trivia questions based on user preferences using relevant News APIs.
+                Partnered with the neuroscience dept. to build an iOS and Android app tested by 68+ users using React Native. Targeted a demographic of 2200+ Alzhiemer’s patients for boosting cognitive stimulation via interactive games. Crafted an LLM that dynamically generates 170+ trivia questions per user preferences using relevant News APIs.
 
               </p>
             </VerticalTimelineElement>
@@ -122,7 +122,7 @@ export const Timeline = () => {
                 | Valparaiso, IN
               </h4>
               <p data-aos="fade-right">
-                Automated 14 quality and quantity check forms in a React-based web app for reducing data entry errors and paper stacks. Reduced the turnaround time from submission of the forms to supervisor review from over 24 hours to just 30 minutes. Built a Django backend to manage and compile forms into PDFs, improving efficiency and documentation.
+                Automated 14 quality/quantity check forms via a React web app for reducing paperwork and data entry errors. Reduced turnaround time from over 24 hours to 30 minutes for form submission to supervisor review. Developed a Django backend that improved efficiency 3-fold by automatic form compilation into PDF and CSV.
 
               </p>
             </VerticalTimelineElement>
@@ -167,7 +167,7 @@ export const Timeline = () => {
                 | Valparaiso, IN
               </h4>
               <p data-aos="fade-right">
-                Utilized Machine Vision and OpenCV for counting jars passing through a production line with over 98% accuracy. Enhanced counting accuracy and reduced waste in jar production by 18%, optimizing overall proficiency. Presented real-time counts of 150000+ jars based on the day on a React web app via a Django backend hosted on AWS.
+                Implemented Machine Vision and OpenCV to achieve over 98% accuracy in counting jars in a production line. Enhanced counting accuracy by 18% and count for waste jars by 27% optimizing the overall proficiency. Presented real-time counts of 150K+ jars based on the day on a React site via a Django backend hosted on AWS.
               </p>
             </VerticalTimelineElement>
 
@@ -213,7 +213,7 @@ export const Timeline = () => {
                 | Remote/Austin, TX
               </h4>
               <p data-aos="fade-right">
-                Improved user engagement by 16%  across the company’s website and application through Three JS and Python. Led full-stack development to optimize the backend performance while simultaneously cutting page load times. Secured an acquisition of 12 clients as the Indiana brand ambassador through strategic networking efforts.
+                Increased user engagement by 16% across the company’s website and iOS application using Python and Swift. Optimized backend performance on Django, reduced page load time by 23% through full-stack web development. Secured an acquisition of 12 clients as the Indiana brand ambassador by applying strategic networking efforts.
               </p>
             </VerticalTimelineElement>
 
@@ -256,7 +256,7 @@ export const Timeline = () => {
                 | Indiana
               </h4>
               <p data-aos="fade-right">
-                Developed 3 web applications games for the Library’s touchscreen kiosk, increasing user engagement by 19%. Increased repeated interactions through scoreboards and real-time analytics with React Hooks and Django. Boosted efficiency by 40% by automating data collection and leaderboard updates through optimized backend operations.
+                Developed 3 web-based games for the Library’s touchscreen kiosk aimed at increasing interactions with the kiosk. Improved user engagement by 19% through scoreboards and real-time analytics with React and Node.JS. Boosted efficiency by 41% by automating data collection for leaderboard updates and optimizing the backend.
               </p>
             </VerticalTimelineElement>
 
