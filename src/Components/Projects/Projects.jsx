@@ -110,7 +110,9 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="project_videocontainer">
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
                 <div>
                   <img
                     src={dice}
@@ -121,13 +123,12 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>DiceMaster</h2>
                 <p>
-Built an iOS app using Swift and UIKit, creating smooth transitions and optimizing logic for seamless interactions. Reduced UI load time by 32% compared to standard image handling methods, enhancing overall responsiveness                </p>
+                Built an iOS app using Swift and UIKit, creating smooth transitions and optimizing logic for seamless interactions. Reduced UI load time by 32% compared to standard image handling methods, enhancing overall responsiveness.
+                </p>
                 <div>
-                  
                   <FaSwift />
                 </div>
                 <div>
-                  
                   <a
                     href="https://github.com/chhateauuu/DiceMaster"
                     target="_blank"
