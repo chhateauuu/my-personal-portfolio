@@ -44,7 +44,7 @@ export const Contact = () => {
               <CgMail className="email" />
             </a>
             <a
-              href="https://drive.google.com/file/d/16TMaD7g9qugawjERoNXKb4QXxgP2dsFA/view"
+              href="https://drive.google.com/file/d/1gl35J3jzNyVvoYqizkCpDBkBrmxxF7hy/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
