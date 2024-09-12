@@ -63,16 +63,6 @@ export const About = () => {
           
         </div>
 
-        <button
-          className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1gl35J3jzNyVvoYqizkCpDBkBrmxxF7hy/view?usp=sharing"
-            );
-          }}
-        >
-          Resume
-        </button>
       </div>
       <Introduction />
       <Timeline />
