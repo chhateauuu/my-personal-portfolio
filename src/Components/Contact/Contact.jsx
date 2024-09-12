@@ -43,13 +43,7 @@ export const Contact = () => {
             >
               <CgMail className="email" />
             </a>
-            <a
-              href="https://drive.google.com/file/d/1gl35J3jzNyVvoYqizkCpDBkBrmxxF7hy/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-            <FaFilePdf className="resume" />
-            </a>
+
             
             
           </div>
