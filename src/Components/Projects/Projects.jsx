@@ -35,7 +35,7 @@ import bmicalc from "../../assets/BMI-calculator.png";
 import objectDetect from "../../assets/object_detection.png"
 import dice from "../../assets/dice.png"
 import aiassistant from "../../assets/aiassistant.png"
-import anime from "../../assets/anime.png"
+import anime from "../../assets/anime2.png"
 import mern from "../../assets/mern.png"
 
 
