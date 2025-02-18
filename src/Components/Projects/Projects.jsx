@@ -67,7 +67,7 @@ export const Projects = () => {
 Building an AI assistant to automate business tasks via Google Calendar, Slack and Customer Relationship Management. Utilizing PostgreSQL, FastAPI, NLP to manage business data, optimize workflows, generate actionable insights.                
                  </p> 
                   <div>
-                  <Python />
+                  <FaPython />
                   <SiPostgresql />
                   
                   <SiFastapi />
