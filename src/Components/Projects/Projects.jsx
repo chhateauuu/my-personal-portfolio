@@ -112,7 +112,8 @@ Building an AI assistant to automate business tasks via Google Calendar, Slack a
                 <h2>TypeScript MERN eCommerce Application</h2>
                 <p>
 Built a platform using MongoDB, Express, React, and Node.js for enhancing shopping for a Nepali home goods store. Developed REST APIs, used TypeScript for frontend/backend, implemented authentication, improved accessibility.
-                <div>
+                </p>
+                  <div>
                   
                   <SiTypescript />
                   <SiExpress />
@@ -150,6 +151,7 @@ Built a platform using MongoDB, Express, React, and Node.js for enhancing shoppi
                 <h2>Hybrid ML Recommendation System</h2>
                 <p>
 Built an ML-based anime recommender to provide recommendations for anime watchers with a 92% accuracy. Applied clustering, collaborative filtering to train the model, optimizing data pipelines with Pandas and Numpy.                </p>
+               </p>
                 <div>
                   
                   <FaPython />
