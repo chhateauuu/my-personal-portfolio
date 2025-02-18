@@ -150,7 +150,7 @@ Built a platform using MongoDB, Express, React, and Node.js for enhancing shoppi
               <div className="project_information">
                 <h2>Hybrid ML Recommendation System</h2>
                 <p>
-Built an ML-based anime recommender to provide recommendations for anime watchers with a 92% accuracy. Applied clustering, collaborative filtering to train the model, optimizing data pipelines with Pandas and Numpy.                </p>
+Built an ML-based anime recommender to provide recommendations for anime watchers with a 92% accuracy. Applied clustering, collaborative filtering to train the model, optimizing data pipelines with Pandas and Numpy.
                </p>
                 <div>
                   
