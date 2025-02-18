@@ -207,7 +207,7 @@ Implemented Machine Vision via OpenCV in Python, achieving 98%+ accuracy in auto
                   rel="noopener noreferrer"
                 >
                   <span className="different">1 System</span>
-                </a>
+                </a>{" "}
                 | Remote/Austin, TX
               </h4>
               <p data-aos="fade-right">
