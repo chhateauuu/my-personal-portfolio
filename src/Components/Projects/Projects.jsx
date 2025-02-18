@@ -19,6 +19,10 @@ import {
   SiReact,
   SiCss3,
   SiTensorflow,
+  SiTypescript,
+  SiPostgresql,
+  SiFastapi,
+  
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -30,6 +34,9 @@ import spendSavvy from "../../assets/spendsavvy.png";
 import bmicalc from "../../assets/BMI-calculator.png";
 import objectDetect from "../../assets/object_detection.png"
 import dice from "../../assets/dice.png"
+import aiassistant from "../../assets/aiassistant.png"
+import anime from "../../assets/anime.png"
+import mern from "../../assets/mern.png"
 
 
 
@@ -40,6 +47,135 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+
+
+
+<div className="projects_container" data-aos="fade-right">
+            <div className="project">
+            
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={aiassistant}
+                    alt="AI assistant"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>AI-powered Business Assistant</h2>
+                <p>
+Building an AI assistant to automate business tasks via Google Calendar, Slack and Customer Relationship Management. Utilizing PostgreSQL, FastAPI, NLP to manage business data, optimize workflows, generate actionable insights.                
+                  <div>
+                  <Python />
+                  <SiPostgresql />
+                  
+                  <SiFastapi />
+
+                </div>
+                <div>
+                  
+                  <a
+                    href="https://github.com/chhateauuu/AI-Powered-Business-Assistant"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+          
+
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+            
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={mern}
+                    alt="Mern eCommerce Application"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>TypeScript MERN eCommerce Application</h2>
+                <p>
+Built a platform using MongoDB, Express, React, and Node.js for enhancing shopping for a Nepali home goods store. Developed REST APIs, used TypeScript for frontend/backend, implemented authentication, improved accessibility.
+                <div>
+                  
+                  <SiTypescript />
+                  <SiExpress />
+                  <SiMongodb />
+                </div>
+                <div>
+                  
+                  <a
+                    href="https://github.com/chhateauuu/MERN-Ecommerce-Application"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+            
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={anime}
+                    alt="Anime Recommendation System"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Hybrid ML Recommendation System</h2>
+                <p>
+Built an ML-based anime recommender to provide recommendations for anime watchers with a 92% accuracy. Applied clustering, collaborative filtering to train the model, optimizing data pipelines with Pandas and Numpy.                </p>
+                <div>
+                  
+                  <FaPython />
+                </div>
+                <div>
+                  
+                  <a
+                    href="https://github.com/chhateauuu/Hybrid-ML-Anime-Recommendation-System"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
             
