@@ -77,14 +77,55 @@ export const Timeline = () => {
                 | Greencastle, IN
               </h4>
               <p data-aos="fade-right">
-                Partnered with the neuroscience dept. to build an iOS and Android app tested by 68+ users using React Native. Targeted a demographic of 2200+ Alzhiemer’s patients for boosting cognitive stimulation via interactive games. Crafted an LLM that dynamically generates 170+ trivia questions per user preferences using relevant News APIs.
-
+Partnered with the neuroscience dept. to build an iOS/Android app tested by 68+ users using React Native. Targeted a demographic of 2200+ Alzhiemer’s patients to boost cognitive simulations via interactive categorical games. Crafted a MongoDB database storing 1500+ unique questions generated using News APIs and OpenAI API.
               </p>
+            </VerticalTimelineElement>
+<VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date={"Jul 2024 - Sep 2024"}
+              contentStyle={{
+                boxShadow: `var(--shadow)`,
+                border: "3px solid var(--clr-primary)",
+                backgroundColor: `var(--clr-bg)`,
+                textAlign: "center",
+                color: `var(--clr-fg-alt)`,
+              }}
+              contentArrowStyle={{
+                borderRight: "16px solid var(--clr-primary)",
+              }}
+              iconStyle={{
+                border: ` 3px solid var(--clr-primary)`,
+                backgroundColor: `var(--clr-bg)`,
+                color: `var(--clr-primary)`,
+              }}
+              icon={<WorkIcon />}
+            >
+              <h3
+                className="vertical-timeline-element-title"
+                data-aos="fade-right"
+              >
+                AI/ML Intern
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                data-aos="fade-right"
+              >
+                <a
+                  href="https://bnutty.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="different">BNutty, LLC</span>
+                </a>{" "}
+                | Valparaiso, IN
+              </h4>
+              <p data-aos="fade-right">
+Implemented Machine Vision via OpenCV in Python, achieving 98%+ accuracy in automated tracking of production. Minimized manual effort by 89% and counting accuracy by 18% through digitization and automation of processes. Presented real-time counts of 40K+ jars daily on a React frontend through a Django backend using AWS.          </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date={"Jul 2024 - Sep 2024"}
+              date={"Apr 2024 - Jul 2024"}
               contentStyle={{
                 boxShadow: `var(--shadow)`,
                 border: "3px solid var(--clr-primary)",
@@ -127,50 +168,7 @@ export const Timeline = () => {
               </p>
             </VerticalTimelineElement>
 
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date={"May 2024 - Jul 2024"}
-              contentStyle={{
-                boxShadow: `var(--shadow)`,
-                border: "3px solid var(--clr-primary)",
-                backgroundColor: `var(--clr-bg)`,
-                textAlign: "center",
-                color: `var(--clr-fg-alt)`,
-              }}
-              contentArrowStyle={{
-                borderRight: "16px solid var(--clr-primary)",
-              }}
-              iconStyle={{
-                border: ` 3px solid var(--clr-primary)`,
-                backgroundColor: `var(--clr-bg)`,
-                color: `var(--clr-primary)`,
-              }}
-              icon={<WorkIcon />}
-            >
-              <h3
-                className="vertical-timeline-element-title"
-                data-aos="fade-right"
-              >
-                AI/ML Intern
-              </h3>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                data-aos="fade-right"
-              >
-                <a
-                  href="https://bnutty.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="different">BNutty, LLC</span>
-                </a>{" "}
-                | Valparaiso, IN
-              </h4>
-              <p data-aos="fade-right">
-                Implemented Machine Vision and OpenCV to achieve over 98% accuracy in counting jars in a production line. Enhanced counting accuracy by 18% and count for waste jars by 27% optimizing the overall proficiency. Presented real-time counts of 150K+ jars based on the day on a React site via a Django backend hosted on AWS.
-              </p>
-            </VerticalTimelineElement>
-
+            
             {/* Existing Timeline Elements Below */}
 
             <VerticalTimelineElement
@@ -213,8 +211,7 @@ export const Timeline = () => {
                 | Remote/Austin, TX
               </h4>
               <p data-aos="fade-right">
-                Increased user engagement by 16% across the company’s website and iOS application using Python and Swift. Optimized backend performance on Django, reduced page load time by 23% through full-stack web development. Secured an acquisition of 12 clients as the Indiana brand ambassador by applying strategic networking efforts.
-              </p>
+Built 3D interactive features with Three.js and Swift boosting session duration by 16% on the website and iOS app. Optimized backend performance in Django, cutting page load time by  23% with caching and indexing. Developed AI-driven personalized recommendations using Python and TensorFlow, increasing user retention by 12%              </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
